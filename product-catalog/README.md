@@ -10,7 +10,7 @@ docker run -d \
     -e "discovery.type=single-node" \
     elasticsearch:7.6.2
 
-gradle booRun
+gradle bootRun
 ```
 
 In another terminal, when elasticsearch is ready, run:
