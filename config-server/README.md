@@ -1,7 +1,7 @@
 ## Running the project
 
 ```sh
-gradle booRun
+gradle bootRun
 ```
 
 ## Testing the project
