@@ -6,7 +6,7 @@ docker run -d \
     -p 6379:6379 \
     redis
 
-gradle booRun
+gradle bootRun
 ```
 
 ## Testing the project
