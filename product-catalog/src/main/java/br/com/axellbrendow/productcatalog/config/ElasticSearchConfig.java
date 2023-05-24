@@ -13,7 +13,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 @Configuration
 @EnableElasticsearchRepositories(basePackages = "br.com.axellbrendow.productcatalog.repository")
 public class ElasticSearchConfig {
-    @Value("${elastic.host}")
+    @Value("${elastic.host}") // Comes from another repo https://github.com/axellbrendow/dio-spring-ecommerce-microservices-config/blob/master/product-catalog.properties
     private String host;
 
     @Value("${elastic.port}")
